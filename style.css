@@ -1,10 +1,52 @@
-*{
-padding:0;
-margin:0;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+body {
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  min-height: 100vh;
 }
 
 .container{
+position: relative;
+width: 100%;
+max-width: 1000px;
+min-height: 100px;
+display: grid;
+background: #ffffff;
+grid-template-columns: 1;
 
-    display:flex;
-    
+
+} 
+.container .left-side {
+position:relative;
+background: #003147;
+padding:40px;
+}
+.profileText{
+position:relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 20px;
+
+}
+.profileTxt .imgBx{
+ position: relative;
+ width: 200px;
+ height:200px ;
+ border-radius: 50% ;
+ overflow: hidden;
+
+}
+
+.container .right-side{
+    position: relative;
+    background: ;
+    padding:40px;
 }
