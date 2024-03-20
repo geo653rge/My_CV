@@ -16,10 +16,11 @@ body {
 position: relative;
 width: 100%;
 max-width: 1000px;
-min-height: 100px;
-display: grid;
-background: #ffffff;
-grid-template-columns: 1;
+min-height: 1000px;
+display:grid;
+background: #fff;
+grid-template-columns:1fr 1fr;
+box-shadow: 0 35px 55px  rgba(0, 0,0,0.1);
 
 
 } 
@@ -47,6 +48,6 @@ padding-bottom: 20px;
 
 .container .right-side{
     position: relative;
-    background: ;
+    /* background: ; */
     padding:40px;
 }
