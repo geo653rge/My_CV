@@ -148,7 +148,7 @@ font-weight: 300;
 .title2 {
   color: black;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   margin-bottom: 10px;
 }
 p {
@@ -156,7 +156,7 @@ p {
 }
 .about .box {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 20px 0px;
 }
 .about .box .year-company {
